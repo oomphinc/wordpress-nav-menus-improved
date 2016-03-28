@@ -1,0 +1,16 @@
+{
+    "name": "oomphinc/wordpress-nav-menus-improved",
+    "description": "Enhances WordPress Nav Menus with support for sub-menu rendering and post archives.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Beemsterboer",
+            "homepage": "https://github.com/balbuf",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
