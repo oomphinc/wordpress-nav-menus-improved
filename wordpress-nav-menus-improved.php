@@ -3,7 +3,7 @@
 Plugin Name: WordPress Nav Menus Improved
 Description: Enhances WordPress Nav Menus with support for sub-menu rendering and post archives.
 Author: Stephen Beemsterboer @ Oomph, Inc.
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.oomphinc.com/
 License: MIT
 	The MIT License (MIT)
@@ -25,10 +25,10 @@ License: MIT
 	THE SOFTWARE.
 */
 
-namespace OomphInc;
+namespace OomphInc\WordPressNavMenusImproved;
 
-if ( !class_exists( '\OomphInc\WordPressNavMenusImproved' ) ) {
-	require_once __DIR__ . '/inc/WordPressNavMenusImproved.php';
+if ( !class_exists( __NAMESPACE__ . '\\Plugin' ) ) {
+	require_once __DIR__ . '/inc/Plugin.php';
 	define( __NAMESPACE__ . '\\PLUGINS_URL', plugins_url( '/', __FILE__ ) );
-	WordPressNavMenusImproved::init();
+	Plugin::init();
 }

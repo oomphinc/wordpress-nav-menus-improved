@@ -1,8 +1,8 @@
 <?php
 
-namespace OomphInc;
+namespace OomphInc\WordPressNavMenusImproved;
 
-class WordPressNavMenusImproved {
+class Plugin {
 
 	const CPT_TYPE = 'cpt_archive';
 
